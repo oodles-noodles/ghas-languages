@@ -1,0 +1,13 @@
+name: CodeQL reusable workflow
+
+on:
+  workflow_dispatch
+
+jobs:
+  codeql:
+    uses: expert-services/reusable-workflows/.github/workflows/codeql_reusable.yml@main
+    # with:
+    #   java-version: 15
+    #   java-distribution: 'adopt'
+    #   buildCmd: 'cd storage-service && mvn clean install -DskipTests=true '
+    
