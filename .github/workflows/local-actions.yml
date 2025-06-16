@@ -40,6 +40,6 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Local deployment action
-        uses: .
+        uses: ./scripts/deploy-action.yml
         with:
           deployment-target: production
