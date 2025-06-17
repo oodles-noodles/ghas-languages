@@ -1,4 +1,4 @@
-name: Workflow with Local Actions 
+name: Workflow with Local Actions
 on:
   push:
     branches: [main]
